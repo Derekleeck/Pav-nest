@@ -1,9 +1,9 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { OpenAiService } from './open-ai.service';
 import { GetAiModelAnswer } from './model/get-ai-model-answer';
-import { MESSAGE, OPEN_AI } from 'src/common/constants/apis-url';
+import { MESSAGE, OPEN_AI_API } from 'src/common/constants/apis-url';
 
-@Controller(OPEN_AI)
+@Controller(OPEN_AI_API)
 export class OpenAiController {
   constructor(private readonly openAiService: OpenAiService) {}
 
