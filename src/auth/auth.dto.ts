@@ -4,5 +4,9 @@ export default class LoginUnregisteredDTO {
   // description: client app id //
   @IsString()
   @IsNotEmpty()
-  windowId: string;
+  userId: string;
+
+  @IsString()
+  @IsNotEmpty()
+  password: string;
 }

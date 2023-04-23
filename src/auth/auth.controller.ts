@@ -23,13 +23,14 @@ export class AuthController {
 
   constructor(private readonly authService: AuthService) {}
 
-  @Post(LOGIN_UNREGESTERED_API)
-  async loginNoUser(@Body() dto: LoginUnregisteredDTO): Promise<IApiResponse> {
-    this.logger.verbose(`${CONTROLLER_NAME} - loginNoUser`);
-    this.logger.debug(`DTO : ${JSON.stringify(dto)}`);
+  //   @Post(LOGIN_UNREGESTERED_API)
+  //   async loginNoUser(@Body() dto: LoginUnregisteredDTO): Promise<IApiResponse> {
+  //     this.logger.verbose(`${CONTROLLER_NAME} - loginNoUser`);
+  //     this.logger.debug(`DTO : ${JSON.stringify(dto)}`);
 
-    const result = 'need to create service function';
-    // const result = await this.authService.loginNonMember(dto);
-    return result;
-  }
+  //     const result = 'need to create service function';
+  //     // const result = await this.authService.loginNonMember(dto);
+  //     return result;
+  //   }
+  // }
 }
