@@ -36,4 +36,4 @@ lerna-debug.log*
 
 # credential
 .env.development
-ormconfig.json
+typeorm.config.ts

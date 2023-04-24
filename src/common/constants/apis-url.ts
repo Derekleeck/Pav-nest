@@ -5,5 +5,5 @@ export const MESSAGE = 'message';
 
 // ** Login Process
 export const AUTH_API = `${PAV_API}/auth`;
-export const LOGIN = 'login';
-export const LOGIN_UNREGESTERED_API = 'loginUnregisteredApi';
+export const REGISTER_USER = 'registerUser';
+export const LOGIN_USER = 'loginUser';
